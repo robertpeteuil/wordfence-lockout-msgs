@@ -1,7 +1,0 @@
-These are custom lockout and block messages for wordfence.  
-If you have to ask why you want these, they probably aren't for you.
-
-To use, simply copy them to `/wp-content/plugins/wordfence/lib` overwriting the existing versions 
-(you can back them up first if you'd like.)
-
-Unfortunately, you need to re-copy thse after each Wordfence update.
