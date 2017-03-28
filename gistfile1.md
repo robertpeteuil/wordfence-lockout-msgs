@@ -1,12 +1,15 @@
-# Custom lockout and block messages for wordfence (high security versions)  
+## Custom lockout and block messages for wordfence (high security versions)  
 
-These replace the standard **locked out** and **blocked** messages with the intent of providing minimal useful information to an attacker
+These replace the standard **locked out** and **blocked** messages with the intent of providing minimal information to an attacker
 
 ### Warnings
 
-- They **are not** user friendly (by design)  
-- If you have lots of users who forget their passwords, these are **not** for you.
-- If you have to ask why you would want to use these, these are **not** for you.
+- They are **not** user friendly (by design)  
+- If you have to ask why you should use these modified scripts, they are likely **not** intended for you.
+- Additionally, they should not be used in situations where:
+  - Many users log into your website
+  - Users frequently forget their passwords to your website
+
 
 ### To use:
 
