@@ -10,13 +10,31 @@
 
 These files replace the standard **locked out** and **blocked** messages with the intent of providing minimal information to an attacker.  The default messages break many security best practices in the interest of user friendliness, which is immeterial for websites that only have a handful of people logging in.
 
-A detailed list of the security issues with the default messages is listed below, along with screenshots of the default messages
+A detailed list of the security issues with the default messages, and screenshots of the default messages are included at the bottom of this README.
 
 ### New "Locked Out" Message 
 ![](https://cloud.githubusercontent.com/assets/1554603/24621152/6053830e-1855-11e7-8811-6c20cfaf8f1d.png)
 
 ### New "Blocked" Message 
 ![](https://cloud.githubusercontent.com/assets/1554603/24621160/68eacba8-1855-11e7-8765-aaa83ba58ea2.png)
+
+### Warnings:
+
+- The new lockout and blocked messages included in this repo are **not user friendly**  
+- These files must be re-copied after each Wordfence update, as the update will re-install the default files
+- They are not recommended for use on sites that:
+  - Have many users logging in with username/password combinations 
+  - Users frequently forget their passwords to your website
+
+### Manual Installation:
+
+- connect to your server via SFTP
+- cd to `/wp-content/plugins/wordfence/lib`
+- backup the original files: `wf503.php` and `wfLockedOut.php`
+- copy the files included in this repo into `/wp-content/plugins/wordfence/lib`, overwriting the existing files
+- these files must be re-copied after each Wordfence update, as the update will re-install the default files
+
+---
 
 ### Security Issues with Default Messages (screenshots below):
 - Both messages state tell an attacker that they've be blocked by a security product called "Wordfence"
@@ -38,22 +56,6 @@ A detailed list of the security issues with the default messages is listed below
     - **issue:**  provides a hacker with detailed specific product information on the wordfence website 
     - **issue2:** the wordfence website contains complete product documentation and the support forums
     - **issue3:** the support forums are a treasure trove of information on problems & issues users are having
-
-### Warnings:
-
-- The new lockout and blocked messages included in this repo are **not user friendly**  
-- These files must be re-copied after each Wordfence update, as the update will re-install the default files
-- They are not recommended for use on sites that:
-  - Have many users logging in with username/password combinations 
-  - Users frequently forget their passwords to your website
-
-### Manual Installation:
-
-- connect to your server via SFTP
-- cd to `/wp-content/plugins/wordfence/lib`
-- backup the original files: `wf503.php` and `wfLockedOut.php`
-- copy the files included in this repo into `/wp-content/plugins/wordfence/lib`, overwriting the existing files
-- these files must be re-copied after each Wordfence update, as the update will re-install the default files
 
 ### Reference: the default Wordfence Login-Lockout Message:
 ![](https://cloud.githubusercontent.com/assets/1554603/24621170/6f309272-1855-11e7-80b2-d5e3d4588497.png)
