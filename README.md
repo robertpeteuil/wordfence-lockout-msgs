@@ -41,7 +41,7 @@ A detailed list of the security issues with the default messages is listed below
 
 ### Warnings:
 
-- These lockout and blocked messages are **not user friendly**  
+- The new lockout and blocked messages included in this repo are **not user friendly**  
 - These files must be re-copied after each Wordfence update, as the update will re-install the default files
 - They are not recommended for use on sites that:
   - Have many users logging in with username/password combinations 
