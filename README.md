@@ -18,11 +18,11 @@ A detailed list of the security issues with the default messages is listed below
 ### New "Blocked" Message 
 ![](https://cloud.githubusercontent.com/assets/1554603/24621160/68eacba8-1855-11e7-8765-aaa83ba58ea2.png)
 
-### Specific Security Concerns with Default Lockout and Blocked Messages
+### Security Issues with Default Lockout and Blocked Messages:
 - Both messages state tell an attacker that they've be blocked by a security product called "Wordfence"
   - **issue:**  provides a hacker with an explanation as to why they cannot connect
   - **issue:**  provides a hacker with the exact name of the security product in use
-- Both messages state that the block/lock if temporary (even if it isn't)
+- Both messages state that the block/lock is temporary (even if it isn't)
   - The messages even encourage an attacker to "try back in a short while" or "try again in a few minutes"
     - **issue:**  tells a hacker that their block or lockout is not permanent (even though it may be)
     - **issue2:** encourages a hacker to come back and try to hack again 
@@ -39,10 +39,10 @@ A detailed list of the security issues with the default messages is listed below
     - **issue2:** the wordfence website contains complete product documentation and the support forums
     - **issue3:** the support forums are a treasure trove of information on problems & issues users are having
 
-### Warnings
+### Warnings:
 
 - These lockout and blocked messages are **not user friendly**  
-- these files must be re-copied after each Wordfence update, as the update will re-install the default files
+- These files must be re-copied after each Wordfence update, as the update will re-install the default files
 - They are not recommended for use on sites that:
   - Have many users logging in with username/password combinations 
   - Users frequently forget their passwords to your website
