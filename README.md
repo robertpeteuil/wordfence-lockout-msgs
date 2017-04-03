@@ -18,7 +18,7 @@ A detailed list of the security issues with the default messages is listed below
 ### New "Blocked" Message 
 ![](https://cloud.githubusercontent.com/assets/1554603/24621160/68eacba8-1855-11e7-8765-aaa83ba58ea2.png)
 
-### Security Issues with Default Lockout and Blocked Messages:
+### Security Issues with Default Messages (screenshots below):
 - Both messages state tell an attacker that they've be blocked by a security product called "Wordfence"
   - **issue:**  provides a hacker with an explanation as to why they cannot connect
   - **issue:**  provides a hacker with the exact name of the security product in use
