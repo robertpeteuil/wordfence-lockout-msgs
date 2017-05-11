@@ -12,6 +12,16 @@ These files replace the standard **locked out** and **blocked** messages with th
 
 A detailed list of the security issues with the default messages, and screenshots of the default messages are included at the bottom of this README.
 
+**Updates from support thread** on the [WordPress Forums](https://wordpress.org/support/topic/customizing-block-locked-messages-from-wordpress/)
+
+> **March 2017** - Wordfence Devs likened my desire to stop leaking unecessary information to "security by obscurity", and were even kind enough to send me a link to the Wikipedia article on it.  (note: I'm a paying customer too.)
+
+> **April 2017** - I finally had time to reply to their comments & point out:
+> - "Security by obscurity" is the **reliance on secrecy as the main method for security**.  Since I'm running their security product (and many others), how exactly am I relying on secrecy?
+> - Explained that there’s a big difference between the **“desire for as much secrecy as possible”**, and **“using secrecy as the primary method of providing security”**.
+> - I helpfully included a link to [NIST 800-123: Guide to General Server Security](https://www.nist.gov/publications/guide-general-server-security)
+
+
 ### New "Locked Out" Message 
 ![](https://cloud.githubusercontent.com/assets/1554603/24621152/6053830e-1855-11e7-8811-6c20cfaf8f1d.png)
 
