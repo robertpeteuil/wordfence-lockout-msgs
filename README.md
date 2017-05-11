@@ -37,14 +37,11 @@ A detailed list of the security issues with the default messages, and screenshot
 ---
 
 ### Security Issues with Default Messages (screenshots below):
-- Both messages state tell an attacker that they've be blocked by a security product called "Wordfence"
-  - **issue:**   provides a hacker with an explanation as to why they cannot connect
-  - **issue2:**  provides a hacker with the exact name of the security product in use
 - Both messages state that the block/lock is temporary (even if it isn't)
   - The messages even encourage an attacker to "try back in a short while" or "try again in a few minutes"
     - **issue:**  tells a hacker that their block or lockout is not permanent (even though it may be)
-    - **issue2:** encourages a hacker to come back and try to hack again 
-    - if it is a known bad IP, we want them to think the website is down or that they are "perma-banned"
+    - **issue2:** encourages a hacker to come back
+    - if it is a known bad IP - then they are permanently blocked, so why encourage them to come back
 - The Lockout Message (which blocks access to the login page) has these additional issues:
   - Specifies the specific reason they are locked out (it's even colored so they can find it easily)
     - **issue:**  provides a hacker with information on what actions to avoid
