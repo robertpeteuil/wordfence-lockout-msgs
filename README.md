@@ -37,11 +37,12 @@ A detailed list of the security issues with the default messages, and screenshot
 ---
 
 ### Security Issues with Default Messages (screenshots below):
+- Both messages are overly long and use a lot of bandwidth if displayed 1000's of time a day
 - Both messages state that the block/lock is temporary (even if it isn't)
   - The messages even encourage an attacker to "try back in a short while" or "try again in a few minutes"
-    - **issue:**  tells a hacker that their block or lockout is not permanent (even though it may be)
-    - **issue2:** encourages a hacker to come back
-    - if it is a known bad IP - then they are permanently blocked, so why encourage them to come back
+    - **issue:**  States that a block or lockout is temporary 
+    - if it is a permanently banned IP - it is NOT temporary, and we do NOT want them to try again
+    - **issue2:**  Encourages them to to come back and try again
 - The Lockout Message (which blocks access to the login page) has these additional issues:
   - Specifies the specific reason they are locked out (it's even colored so they can find it easily)
     - **issue:**  provides a hacker with information on what actions to avoid
